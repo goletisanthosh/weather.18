@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="./index.css">
+    <title>Weather Report</title>
+</head>
+<body>
+    <div class="container">
+        <div id="weather">
+            <input type="text" id="locationInput" placeholder="Enter your city name">
+            <button onclick="getWeather()">Get Weather</button>
+        </div>
+        <section class="display">
+            <div class="wrapper">
+            <div id="weatherData">
+                <h2 id="city output"></h2>
+                <p id="description"></p>
+                <p id="temp"></p>
+                <p id="wind"></p>
+            </div>
+            </div>
+        </section>
+    </div>
+    <script src="./index.js"></script>
+</body>
+</html>
